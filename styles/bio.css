@@ -257,8 +257,8 @@ a {
 }
 @media screen and (min-width: 48rem) {
   .about__quote {
+    margin: 0.5rem 1rem auto 1rem;
     font-size: 1.5rem;
-    margin: 1.6rem 0rem;
   }
 }
 @media screen and (min-width: 80rem) {
@@ -370,15 +370,11 @@ a {
   flex-direction: column;
   margin: auto;
 }
-.footer__header {
-  font-size: 2rem;
-}
 .footer__title {
-  margin-top: 1rem;
   margin-bottom: 0;
   padding-bottom: 0;
   order: 1;
-  font-size: 1rem;
+  font-size: 2.25rem;
   font-weight: 500;
 }
 .footer__social {
@@ -411,7 +407,6 @@ a {
   }
 }
 .footer__contact {
-  padding-top: 1rem;
   order: 3;
 }
 @media screen and (min-width: 48rem) {
@@ -430,13 +425,13 @@ a {
     flex-grow: 2;
   }
 }
-.footer__container-contact {
+.footer__container--contact {
   margin-top: 2rem;
   font-size: 1rem;
   line-height: 1.5;
 }
 @media screen and (min-width: 48rem) {
-  .footer__container-contact {
+  .footer__container--contact {
     width: 33%;
   }
 }
@@ -444,17 +439,17 @@ a {
   color: white;
   text-decoration: none;
 }
-.footer__contact-title {
+.footer__contact--title {
   font-family: "AvenirNextLTPro-Demi";
 }
-.footer__logo {
+.footer__image--logo {
   order: 4;
-  width: 10rem;
+  width: 12.5rem;
   margin-top: 3.5rem;
   margin-bottom: 1.5rem;
 }
 @media screen and (min-width: 48rem) {
-  .footer__logo {
+  .footer__image--logo {
     width: 8.5rem;
     order: 3;
     margin: 0rem 0rem;

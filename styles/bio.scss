@@ -245,8 +245,9 @@ a {
         flex-wrap: wrap;
 
         @include tablet{
+            margin: 0.5rem 1rem auto 1rem;
             font-size: 1.5rem;
-            margin: 1.6rem 0rem;   
+            // margin: 1.6rem 0rem;   
         }
 
         @include desktop{
@@ -364,6 +365,8 @@ a {
     }
 }
 
+
+
 .footer {
     padding:2.4rem 1.6rem;
     background-color: $primary-color;
@@ -372,17 +375,14 @@ a {
     flex-direction: column;
     margin: auto;
 
-    &__header{
-        font-size: 2rem;
-    }
 
 
     &__title {
-        margin-top: 1rem;
+        
         margin-bottom: 0;
         padding-bottom: 0;
         order: 1;
-        font-size: 1rem;
+        font-size: 2.25rem;
 
         font-weight: 500;
         
@@ -419,7 +419,6 @@ a {
 
 
     &__contact{
-        padding-top: 1rem;
         order: 3;
         @include tablet {
             order: 4;
@@ -438,7 +437,7 @@ a {
         }
     }
 
-    &__container-contact{
+    &__container--contact{
         margin-top: 2rem;
         font-size: 1rem;
         line-height: 1.5;
@@ -453,14 +452,14 @@ a {
     }
 
 
-     &__contact-title{
+     &__contact--title{
         font-family: $subheader-font;
      }
 
 
-    &__logo{
+    &__image--logo{
         order: 4;
-        width: 10rem;
+        width: 12.5rem;
         margin-top: 3.5rem;
         margin-bottom: 1.5rem;
         
@@ -499,6 +498,3 @@ a {
     }
 
 }
-
-
-

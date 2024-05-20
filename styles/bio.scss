@@ -245,20 +245,27 @@ a {
         flex-wrap: wrap;
 
         @include tablet{
-            margin: 0.5rem 1rem auto 1rem;
+            margin: 1rem 1rem auto 1rem;
             font-size: 1.5rem;
             // margin: 1.6rem 0rem;   
         }
 
         @include desktop{
             justify-content: flex-start;
-            width: 66%;
+            width: 100%;
         }
 
         &--author{
-            margin: 0.5rem auto 0.5rem 1rem;
+            margin: 1.25rem auto 0.5rem 1rem;
             font-weight: 600;
             font-family: $subheader-font;
+
+            @include tablet{
+                font-size: 1.25rem;
+            }
+            @include desktop{
+                font-size: 1.25rem;
+            }
         }
     }
 

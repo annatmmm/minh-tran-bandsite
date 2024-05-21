@@ -229,6 +229,14 @@ a {
 @media screen and (min-width: 80rem) {
   .about__container {
     padding: 1rem 4rem 1rem 4rem;
+    width: 90%;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 48rem) {
+  .about__container {
+    width: 90%;
+    margin: auto;
   }
 }
 .about__image {
@@ -258,13 +266,14 @@ a {
 @media screen and (min-width: 48rem) {
   .about__quote {
     margin: 1rem 1rem auto 1rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 }
 @media screen and (min-width: 80rem) {
   .about__quote {
     justify-content: flex-start;
     width: 100%;
+    font-size: 1.5rem;
   }
 }
 .about__quote--author {
@@ -274,7 +283,7 @@ a {
 }
 @media screen and (min-width: 48rem) {
   .about__quote--author {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 }
 @media screen and (min-width: 80rem) {
